@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  /* font-family: Anton; */
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html,
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #E1EF6A;
+}
+
+nav {
+  /* background-color: blue; */
+  padding: 30px 70px;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+nav .part-2{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:60px;
+}
+
+nav h2{
+  font-size: 28px;
+  font-weight:20px;
+}
+
+nav a{
+  color:#000;
+  text-decoration:none;
+  font-weight:500;
+
+}
+
+section{
+   /* background-color:red; */
+   padding:50px 100px;
+}
+
+section .hero-text1{
+  /* background-color: red; */
+  display:flex;
+  align-items:flex-start;
+  justify-content: space-between;
+
+}
+section .hero-text2{
+  /* background-color: red; */
+  display:flex;
+  /* align-items:flex-end; */
+  justify-content: space-between;
+
+}
+
+.hero-text1 h1{
+  font-size: 140px;
+  text-transform: uppercase;
+  font-weight:900;
+  /* line-height:300px; */
+}
+.hero-text2 h1{
+  font-size: 140px;
+  text-transform: uppercase;
+  font-weight:900;
+  line-height:300px;
+  margin-top:-180px;
+}
+
+.hero-text2 p{
+  font-size: 13px;
+  display:flex;
+  text-transform: uppercase;
+  width:500px;
+  font-weight:500;
+  align-items:left;
+  padding:50px;
+ 
+
+
+  /* line-height:300px; */
+  /* margin-top:-120px; */
+}
+
+.hero-text1 .video{
+  height: 240px;
+  width: 450px;
+  background: #000;
+  border-radius:100px;
+  margin: 10px;
+  /* background-image: url(https://media.istockphoto.com/id/1452838596/photo/electric-smart-meters-for-measuring-power-usage.jpg?s=1024x1024&w=is&k=20&c=q9xkx5B5KCvQ5TvGynU0dmsx0Fx8ebgWBl0WlgQwEO0=); */
+  background-image: url(https://plus.unsplash.com/premium_photo-1716259490200-e77e7fdccfe4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c21hcnQlMjBtZXRlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600);
+  background-size:cover;
+}
+
+section .image{
+  height:660px;
+  width:1000px;
+  background-color:red;
+  margin-left:20px;
+  border-radius:100px;
+  background-image:url(https://images.unsplash.com/photo-1445359179985-460648949e10?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJ1aWxkaW5nc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600);
+  /* background-image:url(https://media.istockphoto.com/id/181677146/photo/classic-luxury-kitchen.jpg?s=612x612&w=0&k=20&c=HPx2Xi9GWcfDs9JAXlQN9f-GFiP4svlj7UoHqce5Rd8=); */
+  background-size:cover;
+
+}
+
+
